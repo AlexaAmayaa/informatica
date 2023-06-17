@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+  body {
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4opx;
+    color: #19249c;
+    font-weight: 600;
+    letter-spacing: -2px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Kanit;
+    font-size: 32px;
+    color:#0B1363;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+.cabecera img {
+    margin: 0px 0px;
+    width: 1348px;
+    height: 200px;
+}
+
+.cuerpo {
+    max-width: 1100px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenido {
+    float: left;
+    width: 65%;
+}
+
+div.contenido img {
+    width: 90%;
+}
+
+.barra-lateral {
+    padding-top: 40px;
+    float: right;
+    width: 300px;
+}
+
+.barra-lateral h3 {
+    color:#0B1363;
+    text-align: center;
+    border-bottom: 1px solid #0B1363;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.pie {
+    clear: both;
+    color: white;
+    background-color: rgb(0, 0, 49);
+    min-height: 10px;
+    padding: 10px;
+    text-align: center;
+}  
+
+@media screen and (max-width: 56.25em){
+    .col{
+    margin: 1% 0 1% 0%;
+    }
+
+    .publicaciones,
+    .barralateral
+    {
+    width: 100%;
+    }
+
+    .side-post{
+    width: 42%;
+    float: left;
+    margin: -2% 0 1% 1.6%;
+    }
+}
+
+    /* @685px */
+
+    @media screen and (max-width: 42.813em){
+        .side-post{
+        width: auto;
+        padding: 15px;
+        margin: -2% auto 8% auto;
+        }
+
+        .blog-title{
+        font-size: 1.95em;
+        }
+
+        .date {
+            font-size: .9em;
+        }
+    }
+/* @480px */
+@media screen and (max-width: 30em){
+nav ul{
+max-height: 0;
+}
+
+.reveal{
+max-height: 19em;
+}
+
+nav ul .nav-item{
+box-sizing: border-box;
+width: 100%;
+padding: 15px;
+}
+
+.menu-bar{
+display: block;
+}
+}
+
+/* @380px */
+
+@media screen and (max-width: 23.75em){
+.blog-content,
+.post-link{
+font-size: .9em;
+}
+
+.side-content{
+font-size: .8em;
+}
+
+.button{
+padding: 10px 15px;
+}
+
+.nav-item{
+font-size: 1.2em;
+}
+}
